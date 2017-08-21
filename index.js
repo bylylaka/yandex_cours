@@ -36,7 +36,7 @@ function prov_phone() {
     var adr=document.getElementById("phone").value;
     if(adr) {
         var sum = parseInt(adr.charAt(1))+parseInt(adr.charAt(3))+parseInt(adr.charAt(4))+parseInt(adr.charAt(5))+parseInt(adr.charAt(7))+parseInt(adr.charAt(8))+parseInt(adr.charAt(9))+parseInt(adr.charAt(11))+parseInt(adr.charAt(12))+parseInt(adr.charAt(14))+parseInt(adr.charAt(5));
-        if (sum<30)
+        if (sum<=30)
             return true;
     }
     return false;
