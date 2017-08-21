@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Задание</title>
+    <meta name="http-equiv" content="Content-type: text/html; charset=UTF-8">
+    <script src="jquery.js"></script>
+    <script src="jquery.maskedinput.min.js"></script>
+</head>
+<body>
+<form id="myForm" action="success.json">
+    <p><input type="text" name="fio" id="fio" placeholder="ФИО"></p>
+    <p><input type="text" name="email" id="email" placeholder="Email"></p>
+    <p><input type="text" name="phone" id="phone" placeholder="Телеон"></p>
+    <p><input id="submitButton" type="submit"></p>
+</form>
+
+<div  id="resultContainer"></div>
+
+<style>
+    .error{
+        border: 1px solid red;
+    }
+
+    .success{
+        border: 1px solid green;
+    }
+    .progress{
+        border: 1px solid gray;
+    }
+</style>
+
+<script src="index.js" charset="UTF-8"></script>
+
+</body>
+</html>
